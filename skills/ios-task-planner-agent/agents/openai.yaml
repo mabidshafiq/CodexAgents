@@ -1,0 +1,6 @@
+interface:
+  display_name: "iOS Task Planner"
+  short_description: "Turns iOS specs into executable issues"
+  default_prompt: "Use $ios-task-planner-agent to break this iOS app plan into GitHub issues."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "iOS Implementation Agent"
+  short_description: "Implements one iOS task per PR"
+  default_prompt: "Use $ios-implementation-agent to implement this iOS task on its own branch and PR."
+policy:
+  allow_implicit_invocation: true

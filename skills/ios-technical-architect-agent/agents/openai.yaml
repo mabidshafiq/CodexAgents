@@ -1,0 +1,6 @@
+interface:
+  display_name: "iOS Technical Architect"
+  short_description: "Plans Swift and iOS architecture"
+  default_prompt: "Use $ios-technical-architect-agent to design the technical plan for this iOS app work."
+policy:
+  allow_implicit_invocation: true

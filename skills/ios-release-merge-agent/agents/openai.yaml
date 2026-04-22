@@ -1,0 +1,6 @@
+interface:
+  display_name: "iOS Release Merge Agent"
+  short_description: "Checks gates and merges iOS PRs"
+  default_prompt: "Use $ios-release-merge-agent to verify merge gates and merge this iOS PR when safe."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "iOS Test Agent"
+  short_description: "Verifies iOS PRs locally and in CI"
+  default_prompt: "Use $ios-test-agent to verify this iOS PR with local tests, simulator launch, and CI."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "iOS Product Spec Agent"
+  short_description: "Creates crisp product specs for iOS work"
+  default_prompt: "Use $ios-product-spec-agent to turn this iOS app idea into a product spec."
+policy:
+  allow_implicit_invocation: true

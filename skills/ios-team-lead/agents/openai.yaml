@@ -1,0 +1,6 @@
+interface:
+  display_name: "iOS Team Lead"
+  short_description: "Routes iOS app work across specialist agents"
+  default_prompt: "Use $ios-team-lead to coordinate this iOS app idea from intake through autonomous delivery."
+policy:
+  allow_implicit_invocation: true
