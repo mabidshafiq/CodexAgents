@@ -32,6 +32,7 @@ Accept a GitHub PR URL, `run-id`, issue URL, or repo path plus branch.
 ## Output
 
 Use status `ready-for-next-agent` when there are no blocking findings. Use status `blocked` when findings must be fixed before merge, and route to `ios-implementation-agent`.
+Set `Next Agent` to `ios-release-merge-agent` when clear, otherwise `ios-implementation-agent`.
 
 ## Review Standard
 

@@ -39,6 +39,7 @@ Every file an agent writes or updates must start with:
 - Run ID: <run-id>
 - Status: <status>
 - Owner Agent: <agent-skill-name>
+- Next Agent: <agent-skill-name or terminal>
 - Last Updated: <YYYY-MM-DD>
 - Source: <idea, issue URL, PR URL, or repo path>
 ```
@@ -51,6 +52,7 @@ Every file an agent writes or updates must start with:
 - If a GitHub issue or PR is created, add the URL to `task-plan.md`.
 - If local verification or CI fails, add exact commands and failure summaries to `test-report.md`.
 - If a review blocks merge, add the blocking finding and owning agent to `release-report.md`.
+- Always set `Next Agent` so the runner can continue the chain without guessing.
 - Keep handoffs durable: a different agent must be able to continue from files and GitHub links alone.
 
 ## Independent Invocation

@@ -39,6 +39,7 @@ Accept any one of:
 ## Output
 
 Update `idea.md` with status and routing. If blocked, state the exact missing input or decision.
+Set `Next Agent` to the chosen specialist or `terminal` if no further action is needed.
 
 ## Reuse
 

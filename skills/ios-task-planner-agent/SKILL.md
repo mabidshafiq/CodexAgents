@@ -38,3 +38,4 @@ Prefer one feature slice per task: model, state, UI, tests, and verification for
 ## Output
 
 `task-plan.md` plus GitHub issue links. If blocked, state whether the missing input is product spec, architecture, repo access, or GitHub access.
+Set `Next Agent` to `ios-implementation-agent` when the first task is ready, otherwise route to the blocker.

@@ -33,6 +33,7 @@ Accept an idea, repo path plus task, GitHub issue URL, or `run-id`. If a run fol
 ## Output
 
 `product-spec.md` is the only required output. If blocked, name the missing product decision and set status `blocked`.
+Set `Next Agent` to `ios-technical-architect-agent` when the spec is ready, otherwise `ios-team-lead` if product input is missing.
 
 ## Quality Bar
 

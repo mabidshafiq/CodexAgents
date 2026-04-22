@@ -33,3 +33,4 @@ If verification fails, set status `blocked`, summarize exact failing commands, a
 ## Output
 
 `test-report.md` with commands, results, simulator details, CI links, and next owner.
+Set `Next Agent` to `ios-pr-review-agent` when verification passes, otherwise `ios-implementation-agent`.

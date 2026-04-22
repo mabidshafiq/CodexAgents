@@ -32,3 +32,4 @@ Use `build-iphone-apps` for iOS implementation workflow, SwiftUI specialist skil
 ## Output
 
 A PR for one task and updated task-plan status. If blocked, record the blocker in `task-plan.md` and route to the team lead.
+Set `Next Agent` to `ios-test-agent` after the PR is ready, or to the blocker that must resolve the issue.

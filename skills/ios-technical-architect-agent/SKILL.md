@@ -36,3 +36,4 @@ Use `build-iphone-apps` for CLI iOS delivery defaults. Use SwiftUI, performance,
 ## Output
 
 `architecture.md` is the required output. If blocked, state the missing spec, repo, scheme, or platform decision.
+Set `Next Agent` to `ios-task-planner-agent` when architecture is ready, otherwise route to the agent that can unblock the missing input.

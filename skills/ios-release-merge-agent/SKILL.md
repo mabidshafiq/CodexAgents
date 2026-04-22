@@ -35,3 +35,4 @@ If any gate fails, do not merge. Set `release-report.md` to `blocked`, record ev
 ## Output
 
 `release-report.md` with status `merged` or `blocked`, PR URL, target branch, verification summary, merge commit when available, and follow-up issues.
+Set `Next Agent` to `terminal` after merge, or `ios-implementation-agent` when blocked fixes are required.

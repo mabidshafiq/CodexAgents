@@ -26,6 +26,16 @@ docs/agent-runs/<run-id>/idea.md
 
 It will decide which specialist agent should act next.
 
+If you want the chain to advance automatically, use the CLI runner instead of invoking each agent by hand:
+
+```bash
+python3 scripts/agent_chain_runner.py start --repo /path/to/MyApp --idea "Build a habit tracker iPhone app"
+```
+
+Set `CODEX_AGENT_EXECUTOR`, pass `--executor`, or add `.agent-runner.json` to tell the runner how to launch each agent.
+
+An example template lives in [`.agent-runner.example.json`](/Volumes/External_SSD/DevProjects/CodexAgents/.agent-runner.example.json).
+
 ## 3. Run The Product Spec Agent
 
 ```text

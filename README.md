@@ -26,3 +26,15 @@ python3 scripts/validate_skill_pack.py
 ```
 
 This checks skill frontmatter, `agents/openai.yaml`, required shared references, and the two dry-run paths: new app idea and existing app task.
+
+## Automatic Dispatch
+
+Use the CLI runner to advance the agent chain automatically:
+
+```bash
+python3 scripts/agent_chain_runner.py start --repo /path/to/target-app --idea "Build a habit tracker app"
+```
+
+To make it actually launch agents, set an executor command through `CODEX_AGENT_EXECUTOR`, `--executor`, or `.agent-runner.json`.
+
+You can start from [`.agent-runner.example.json`](/Volumes/External_SSD/DevProjects/CodexAgents/.agent-runner.example.json).
